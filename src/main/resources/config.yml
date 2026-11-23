@@ -6,6 +6,8 @@ titles:
   punish-menu: "<gradient:#0f172a:#1e40af:#38bdf8><bold>Наказания</bold></gradient> <dark_gray>» <red>%player%"
   plugins-menu: "<gradient:#0f172a:#1e40af:#38bdf8><bold>Система</bold></gradient> <dark_gray>» <gray>Плагины сервера"
 
+# Все привилегии сервера AetherfallSMP
+# Важно: ключи (shkolozavr, starsheklassnik и т.д.) должны совпадать с названиями групп в LuckPerms
 donate-groups:
   shkolozavr:
     display-name: "<gradient:#22c55e:#86efac><bold>Школозавр</bold></gradient>"
@@ -17,17 +19,38 @@ donate-groups:
     slot: 12
   umnik:
     display-name: "<gradient:#06b6d4:#67e8f9><bold>Умник</bold></gradient>"
-    material: "DIAMOND"
+    material: "BOOK"
     slot: 13
   minecrafter:
-    display-name: "<gradient:#eab308:#fde047><bold>Майнкрафтер</bold></gradient>"
-    material: "EMERALD"
+    display-name: "<gradient:#38bdf8:#bae6fd><bold>Майнкрафтер</bold></gradient>"
+    material: "DIAMOND_HELMET"
     slot: 14
+  dvoeshnik:
+    display-name: "<gradient:#f43f5e:#fda4af><bold>Двоешник</bold></gradient>"
+    material: "REDSTONE"
+    slot: 15
+  sportivny:
+    display-name: "<gradient:#10b981:#6ee7b7><bold>Спортивный</bold></gradient>"
+    material: "FEATHER"
+    slot: 20
+  shutsovka:
+    display-name: "<gradient:#a855f7:#d8b4fe><bold>Шуцовка</bold></gradient>"
+    material: "AMETHYST_SHARD"
+    slot: 21
+  fizruk:
+    display-name: "<gradient:#f59e0b:#fde047><bold>Физрук</bold></gradient>"
+    material: "GOLDEN_APPLE"
+    slot: 22
+  director:
+    display-name: "<gradient:#ef4444:#fca5a5><bold>Директор</bold></gradient>"
+    material: "BEACON"
+    slot: 23
   korol_shkoly:
     display-name: "<gradient:#f97316:#fdba74><bold>Король Школы</bold></gradient>"
     material: "NETHER_STAR"
-    slot: 15
+    slot: 24
 
+# Настройка раздела наказаний (Бан / Мут / Кик)
 punishments:
   commands:
     ban: "ban %player% %reason%"
@@ -66,6 +89,7 @@ punishments:
       material: "LEATHER_BOOTS"
       slot: 15
 
+# Кастомные 3D-головы для главного меню (работают без ресурспака)
 icons:
   players-head: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I3M2I1NGI2NzZkYmQ3ZjExN2YwZDM5Y2I2ZGFkNjM1YjQ0ZTMxYjIzMDJkZGU5M2U3YzE4YzVjNDk5YjIifX19"
   plugins-head: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRkNDliYWU5NWM3OTBjM2IxZmY1YjJmMDEwNTJhNzE0ZDYxODU0ODFkNWIxYzg1OTMwYjM2OWVkMjE5MjcifX19"
