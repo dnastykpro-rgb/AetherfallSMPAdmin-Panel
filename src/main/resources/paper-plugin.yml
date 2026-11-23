@@ -1,0 +1,14 @@
+name: AetherfallSMPAdmin-Panel
+version: '1.0.0'
+main: ru.aetherfallsmp.adminpanel.AetherfallSMPAdminPanel
+api-version: '1.21'
+authors:
+  - AetherfallSMP
+description: Красивая админ-панель с темно-синим градиентом для управления игроками, донатом и плагинами.
+
+dependencies:
+  server:
+    LuckPerms:
+      load: BEFORE
+      required: false
+      join-classpath: true
