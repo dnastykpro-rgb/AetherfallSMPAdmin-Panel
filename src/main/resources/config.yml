@@ -6,46 +6,45 @@ titles:
   punish-menu: "<gradient:#0f172a:#1e40af:#38bdf8><bold>Наказания</bold></gradient> <dark_gray>» <red>%player%"
   plugins-menu: "<gradient:#0f172a:#1e40af:#38bdf8><bold>Система</bold></gradient> <dark_gray>» <gray>Плагины сервера"
 
-# Все привилегии сервера AetherfallSMP
-# Важно: ключи (shkolozavr, starsheklassnik и т.д.) должны совпадать с названиями групп в LuckPerms
+# Все привилегии сервера AetherfallSMP (названия секций совпадают с группами в LuckPerms)
 donate-groups:
-  shkolozavr:
+  школозавр:
     display-name: "<gradient:#22c55e:#86efac><bold>Школозавр</bold></gradient>"
     material: "LIME_DYE"
     slot: 11
-  starsheklassnik:
+  старшеклассник:
     display-name: "<gradient:#3b82f6:#93c5fd><bold>Старшеклассник</bold></gradient>"
     material: "LAPIS_LAZULI"
     slot: 12
-  umnik:
+  умник:
     display-name: "<gradient:#06b6d4:#67e8f9><bold>Умник</bold></gradient>"
     material: "BOOK"
     slot: 13
-  minecrafter:
+  майнкрафтер:
     display-name: "<gradient:#38bdf8:#bae6fd><bold>Майнкрафтер</bold></gradient>"
     material: "DIAMOND_HELMET"
     slot: 14
-  dvoeshnik:
+  двоешник:
     display-name: "<gradient:#f43f5e:#fda4af><bold>Двоешник</bold></gradient>"
     material: "REDSTONE"
     slot: 15
-  sportivny:
+  спортивный:
     display-name: "<gradient:#10b981:#6ee7b7><bold>Спортивный</bold></gradient>"
     material: "FEATHER"
     slot: 20
-  shutsovka:
+  шуцовка:
     display-name: "<gradient:#a855f7:#d8b4fe><bold>Шуцовка</bold></gradient>"
     material: "AMETHYST_SHARD"
     slot: 21
-  fizruk:
+  физрук:
     display-name: "<gradient:#f59e0b:#fde047><bold>Физрук</bold></gradient>"
     material: "GOLDEN_APPLE"
     slot: 22
-  director:
+  директор:
     display-name: "<gradient:#ef4444:#fca5a5><bold>Директор</bold></gradient>"
     material: "BEACON"
     slot: 23
-  korol_shkoly:
+  король-школы:
     display-name: "<gradient:#f97316:#fdba74><bold>Король Школы</bold></gradient>"
     material: "NETHER_STAR"
     slot: 24
